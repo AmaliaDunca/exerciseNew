@@ -1,10 +1,6 @@
-console.log("variables");
-var old = "old var";
-let newStyle = "new let";
+let name = "Amalia";
+let pet = "cat";
+let petName = "Manu";
 
-if (true == true) {
-  var old = "try to change";
-  let newStyle = "try to redifine let";
-}
-
-console.log(newStyle);
+console.log(`My name is ${name}, I have a pet, it is a ${pet}, 
+It's called ${petName}`);
